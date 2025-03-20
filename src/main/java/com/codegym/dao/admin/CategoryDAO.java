@@ -1,8 +1,8 @@
 package com.codegym.dao.admin;
 
-import com.codegym.dao.DBConnection;
 import com.codegym.dao.IDao;
 import com.codegym.model.admin.Category;
+import com.codegym.utilities.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;

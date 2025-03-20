@@ -19,7 +19,7 @@ public class DBConnection {
             Class.forName("com.mysql.cj.jdbc.Driver");
             if (conn == null || conn.isClosed()) {
                 System.out.println("Connecting...");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/pet_db", "anhnbt", "KhoaiTay@2019");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/petshop_db", "root", "raisingthebar");
             }
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(DBConnection.class.getName()).log(Level.SEVERE, null, ex);

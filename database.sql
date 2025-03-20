@@ -1,4 +1,4 @@
-DROP DATABASE `petshop_db`;
+# DROP DATABASE `petshop_db`;
 CREATE DATABASE `petshop_db`;
 USE `petshop_db`;
 -- Tao bang type
